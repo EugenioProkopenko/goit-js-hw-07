@@ -4,7 +4,7 @@ const ulCategories = document.querySelector("#categories");
 
 const categoryItems = ulCategories.querySelectorAll(".item");
 console.log(`Number of categories: ${categoryItems.length}`);
-categoryItems.innerHTML += '<div class="container">Я контейнер!</div>';
+
 
 categoryItems.forEach(item => {
     const title = item.querySelector("h2").textContent;
